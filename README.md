@@ -1,7 +1,7 @@
 # uxidutil
 
 [![jsr](https://jsr.io/badges/@core/uxidutil)](https://jsr.io/@core/uxidutil)
-[![test](https://github.com/jsr-core/uxidutil/workflows/Test/badge.svg)](https://github.com/jsr-core/uxidutil/actions?query=workflow%3ATest)
+[![test](https://github.com/jsr-core/uxidutil/actions/workflows/test.yml/badge.svg)](https://github.com/jsr-core/uxidutil/actions/workflows/test.yml)
 [![codecov](https://codecov.io/github/jsr-core/uxidutil/graph/badge.svg?token=PHQ8VUOfcE)](https://codecov.io/github/jsr-core/uxidutil)
 
 A minimal utility for converting between [UUID] (Universally Unique IDentifier)
