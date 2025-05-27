@@ -1,8 +1,8 @@
 # uxidutil
 
-[![jsr](https://jsr.io/badges/@core/uxidutil)](https://jsr.io/@core/uxidutil)\
-[![test](https://github.com/jsr-core/uxidutil/workflows/Test/badge.svg)](https://github.com/jsr-core/uxidutil/actions?query=workflow%3ATest)\
-[![codecov](https://codecov.io/github/jsr-core/uxidutil/graph/badge.svg?token=pfbLRGU5AM)](https://codecov.io/github/jsr-core/uxidutil)
+[![jsr](https://jsr.io/badges/@core/uxidutil)](https://jsr.io/@core/uxidutil)
+[![test](https://github.com/jsr-core/uxidutil/workflows/Test/badge.svg)](https://github.com/jsr-core/uxidutil/actions?query=workflow%3ATest)
+[![codecov](https://codecov.io/github/jsr-core/uxidutil/graph/badge.svg?token=PHQ8VUOfcE)](https://codecov.io/github/jsr-core/uxidutil)
 
 A minimal utility for converting between [UUID] (Universally Unique IDentifier)
 and [ULID] (Universally Unique Lexicographically Sortable Identifier) in their
