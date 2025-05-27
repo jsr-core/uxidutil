@@ -1,10 +1,12 @@
 # uxidutil
 
-[![jsr](https://jsr.io/badges/@core/uxidutil)](https://jsr.io/@core/uxidutil)  
-[![test](https://github.com/jsr-core/uxidutil/workflows/Test/badge.svg)](https://github.com/jsr-core/uxidutil/actions?query=workflow%3ATest)  
+[![jsr](https://jsr.io/badges/@core/uxidutil)](https://jsr.io/@core/uxidutil)\
+[![test](https://github.com/jsr-core/uxidutil/workflows/Test/badge.svg)](https://github.com/jsr-core/uxidutil/actions?query=workflow%3ATest)\
 [![codecov](https://codecov.io/github/jsr-core/uxidutil/graph/badge.svg?token=pfbLRGU5AM)](https://codecov.io/github/jsr-core/uxidutil)
 
-A minimal utility for converting between [UUID] (Universally Unique IDentifier) and [ULID] (Universally Unique Lexicographically Sortable Identifier) in their string and binary (Uint8Array) forms.
+A minimal utility for converting between [UUID] (Universally Unique IDentifier)
+and [ULID] (Universally Unique Lexicographically Sortable Identifier) in their
+string and binary (Uint8Array) forms.
 
 [UUID]: https://www.rfc-editor.org/rfc/rfc9562.html
 [ULID]: https://github.com/ulid/spec
@@ -27,10 +29,10 @@ A minimal utility for converting between [UUID] (Universally Unique IDentifier) 
 
 ```ts
 import {
-  parseUlid,
   formatUlid,
-  parseUuid,
   formatUuid,
+  parseUlid,
+  parseUuid,
 } from "jsr:@core/uxidutil";
 
 const uuid = "123e4567-e89b-12d3-a456-426614174000";
@@ -53,7 +55,8 @@ const fromUlidToUuid = formatUuid(parseUlid(ulid));
 
 ### parseUuid(uuid: string): Uint8Array
 
-Parses a standard UUID string (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx) into a 16-byte array.
+Parses a standard UUID string (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx) into a
+16-byte array.
 
 ### formatUuid(bytes: Uint8Array): string
 
@@ -61,7 +64,8 @@ Formats a 16-byte array into a UUID string.
 
 ### parseUlid(ulid: string): Uint8Array
 
-Parses a 26-character ULID string into a 16-byte array. Strictly validates Crockford Base32 (excluding I, L, O, U).
+Parses a 26-character ULID string into a 16-byte array. Strictly validates
+Crockford Base32 (excluding I, L, O, U).
 
 ### formatUlid(bytes: Uint8Array): string
 
