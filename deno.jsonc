@@ -1,6 +1,5 @@
 {
   "name": "@core/uxidutil",
-  "version": "0.0.0",
   "exports": {
     ".": "./mod.ts",
     "./ulid": "./ulid.ts",
